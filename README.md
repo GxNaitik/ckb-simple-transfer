@@ -5,11 +5,11 @@ This is a simple dApp example to show how to view and transfer balance on the CK
 ## Screenshots
 
 #### 1. Simple Transfer dApp
-![1. Simple Transfer dApp](screenshots\1.simple-transfer-dApp.png)
+![1. Simple Transfer dApp](screenshots/1.simple-transfer-dApp.png)
 
 #### 2. Running dApp locally
-![2. Running dApp locally](screenshots\2.running-dApp-locally.png)
+![2. Running dApp locally](screenshots/2.running-dApp-locally.png)
 
 #### 3. Txn Hash
 
-![3. txnHash](screenshots\3.txnHash.png)
+![3. txnHash](screenshots/3.txnHash.png)
