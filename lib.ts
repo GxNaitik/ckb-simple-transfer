@@ -25,11 +25,7 @@ export async function capacityOf(address: string): Promise<bigint> {
   return balance;
 }
 
-export async function transfer(
-  toAddress: string,
-  amountInCKB: string,
-  signerPrivateKey: string
-): Promise<string> {
+export async function transfer(toAddress: string, amountInCKB: string, signerPrivateKey: string): Promise<string> {
   const signer = new ccc.SignerCkbPrivateKey(cccClient, signerPrivateKey);
   const { script: toLock } = await ccc.Address.fromString(toAddress, cccClient);
 
